@@ -1,0 +1,53 @@
+class Form{
+constructor (){
+this.tomato=loadImage("images/tomato.png")
+this.onion=loadImage("images/onion.png")
+this.beans=loadImage("images/beans.png")
+this.leafy=loadImage("images/leafy vegetable.png")
+this.carrot=loadImage("images/carrot.png")
+this.apple=loadImage("images/apple.png")
+this.banana=loadImage("images/banana.png")
+this.mango=loadImage("images/mango.png")
+this.lichi=loadImage("images/lichi.png")
+this.pomogranate=loadImage("images/pomogrante.png")
+}
+show (){
+    background('cyan')
+
+image (this.tomato,400,400,100,100)
+this.tomatoinput =createInput()
+this.onioninput =createInput()
+this.beansinput =createInput()
+this.leafyinput =createInput()
+this.carrotinput =createInput()
+this.appleinput =createInput()
+this.bananainput =createInput()
+this.mangoinput =createInput()
+this.lichiinput =createInput()
+this.pomogranteinput =createInput()
+
+this.tomatoinput.position(400,50)
+this.onioninput.position(400,100)
+this.beansinput.position(400,150)
+this.leafyinput.position(400,200)
+this.carrotinput.position(400,250)
+this.appleinput.position(400,300)
+this.bananainput.position(400,350)
+this.mangoinput.position(400,400)
+this.lichiinput.position(400,450)
+this.pomogranteinput.position(400,500)
+
+this.submitbutton=createButton('Submit')
+this.submitbutton.position(400,550)
+text('tomato',200,50)
+text('onion',200,100)
+text('beans',200,150)
+text('leafy vegetables',200,200)
+text('carrot',200,250)
+text('apple',200,300)
+text('banana',200,350)
+text('mango',200,400)
+text('lichi',200,450)
+text('pomogrante',200,500)
+}
+}
